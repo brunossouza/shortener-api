@@ -44,12 +44,9 @@ The application can be run with **maven**, **docker**, **docker-compose** or bui
 1. Clone the repository
 2. Run `mvn clean install -DskipTests` or `mvn clean package -DskipTests` to build the project skipping the tests
 3. Set the environment variables (see [Environment Variables](#environment-variables))
-3. To start the application in dev mode, run:
-    - `mvn spring-boot:run` to run the application with the development profile
+3. To start the application in dev mode, run `mvn spring-boot:run`
 4. Open `http://localhost:8080` in your browser. You can also use the api with postman or any other rest client
 5. To run the tests, run `mvn test`,(TODO: add tests)
-6. To run the tests with coverage, run `mvn jacoco:report`,(TODO: add coverage)
-7. To run the tests with coverage and open the report, run `mvn jacoco:report-aggregate`,(TODO: add coverage report)
 
 ### Running with docker
 
