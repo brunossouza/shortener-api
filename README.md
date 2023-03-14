@@ -26,15 +26,15 @@ and is not intended for production use.
 The following environment variables are required to run the application:
 
 - `MONGODB_URI` - The mongodb connection string
-  - exemplo: `mongodb://user:password@localhost:27017`
+  - example: `mongodb://user:password@localhost:27017`
 - `MONGODB_DB` - The mongodb database name (default: `shortener`)
-  - exemplo: `shortener`
+  - example: `shortener`
 - `SECRET_KEY` - The secret key used to sign the jwt token (for development can be genereted
   on https://www.allkeysgenerator.com/#encryption - use the **hex** value)
 - `JWT_EXPIRATION_TIME` - The jwt token expiration time in milliseconds
-  - exemplo: `86400000` (1 day)
+  - example: `86400000` (1 day)
 - `DOMAIN_URL` - The application domain
-  - exemplo: `http://localhost:8080` ou `https://short.bs.dev.br`
+  - example: `http://localhost:8080` ou `https://domain.com.br`
 - `PORT` - The application port (default: `8080`)
 
 ## How to run
